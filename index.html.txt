@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivangi Gupta | Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+    section { padding: 40px; max-width: 900px; margin: auto; }
+    h2 { color: #2c3e50; }
+    .skills, .projects, .certs { margin-bottom: 40px; }
+    .card { background: white; padding: 20px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
+    a { color: #3498db; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shivangi Gupta</h1>
+    <p>Database Administrator | AWS DevOps & Cloud Engineer | Technical Writer | Data Engineer</p>
+    <p><a href="mailto:guptashivangi713@gmail.com">guptashivangi713@gmail.com</a> | 
+       <a href="https://linkedin.com/in/learnershivangigupta">LinkedIn</a></p>
+  </header>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <p><strong>AWS:</strong> S3, RDS, DynamoDB, Lambda, API Gateway, CloudWatch, IAM, Terraform, GitHub Actions</p>
+      <p><strong>Big Data:</strong> PySpark, SQL, Databricks, ETL</p>
+      <p><strong>Languages:</strong> Python, PowerShell</p>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>🚀 Automated AWS Infrastructure</h3>
+      <p>Provisioned AWS infra using Terraform, reducing deployment time by 70%.</p>
+    </div>
+    <div class="card">
+      <h3>📊 Data Migration</h3>
+      <p>Migrated 10+ TB of production data from DynamoDB to RDS PostgreSQL with zero data loss.</p>
+    </div>
+    <div class="card">
+      <h3>🌐 Disaster Recovery</h3>
+      <p>Architected Active‑Active DR across AWS regions, achieving 99.99% uptime.</p>
+    </div>
+  </section>
+
+  <section class="certs">
+    <h2>Certifications</h2>
+    <div class="card">
+      <p>AWS Developer Associate | AWS Solutions Architect Associate | Databricks Data Engineer Associate | Databricks GenAI Engineer Associate</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Shivangi Gupta | Built with ❤️ using GitHub Pages</p>
+  </footer>
+</body>
+</html>
